@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mi Primera Página Web</h1>
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Inicio</a></li>
+            <li><a href="#seccion2">Contenido</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="seccion1">
+        <h2>Bienvenido</h2>
+        <p>Este es un <strong>proyecto básico</strong> con <em>HTML5 y CSS3</em>.</p>
+    </section>
+
+    <section id="seccion2">
+        <h3>Contenido</h3>
+
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+
+        <ol>
+            <li>Primero</li>
+            <li>Segundo</li>
+        </ol>
+
+        <img src="assets/img/imagen1.jpg" alt="Descripción de la imagen" width="300">
+
+        <video controls width="300">
+            <source src="assets/video/video1.mp4" type="video/mp4">
+            Tu navegador no admite el video.
+        </video>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo"><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>Ir a <a href="https://www.google.com" target="_blank">Google</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Sonia Obando</p>
+</footer>
+
+</body>
+</html>
